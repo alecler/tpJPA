@@ -1,1 +1,6 @@
-# Template de projet pour le TP JPA 2021 UniR
+# Explications création application JPA
+
+Ce projet a pour but de réaliser une application JPA. 
+Dans ce but, nous avons représenté la méthode Kanban qui a pour but de visualiser l’évolution de la production à réaliser et qui reste à réaliser à l’aide de différente fiche. 
+Pour cela, nous avons du donc dans un premier temps créer plusieurs classe telle que Utilisateur et Fiche dans lesquelles nous avons uniquement travaillé sur leurs différents attributs en implémentant leurs différents getters et setters. Pour certains attributs tels que la liste de tags, nous avions besoin de créer une sous-classe Tags qui permettrait de créer cette liste. 
+Pour ce qui est de la partie hiérarchie, le but était d’avoir différents types de sondages. Pour cela, nous avons alors créé une classe principale Sondage et trois sous classes représentants les trois différents type de sondage (Date, Lieu, Date et Lieu). Ces 3 sous classes héritants donc de la classe principale sondage et formées de la même façon que les classes Fiches et Utilisateurs en ajoutant un identifiant génères automatiquement puis les getters et setters des différents attributs. Cependant, les attributs devant être une liste de dates ou une liste de lieux, il a alors fallu créer ces deux classes citées précédemment. 
